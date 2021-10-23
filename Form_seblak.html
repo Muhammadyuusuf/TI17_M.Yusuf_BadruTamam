@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Form 3.1_1</title>
+</head>
+<body style="background-image: url(bg.jpg); background-repeat:no-repeat; background-size: cover;"></body>
+<div style= "background-color :rgb(255, 8, 0)" align="center"><h1>- - - - - Welcome to STORE-In Company - - - - -</h1></div>
+    <div style="color: black; font-size: 20px; text-align: center;">M. Yusuf Badru Tamam_TI17_0110221049 </div>
+    <h1>
+        STORE-In | BOBA-in Drinks
+    </h1>
+    <form method="post">
+        <div style="color: black; font-size: 15px; text-align: center;">Menjual bebagai aneka ragam Minuman Segar yang dapat meredakan DAHAGA  dengan berbagai macam menu dan Topping sesuai Pilihan Anda
+            <br> Dengan bahan dasar yang sangat Premium yang sangat Berkualitas.
+            <br> - - - - - Segera Order dibawah sini ! - - - - -
+        </div>
+    
+        <fieldset>
+            <legend><h2>Informasi Pembeli</h2></legend>
+    <table>
+        <tr>
+            <td><label for="name">Nama</label></td>
+            <td>:</td>
+            <td><input type="text" id="name" name="customername"></td>
+        </tr>
+        <tr>
+            <td> <label for="address">Alamat</label></td>
+            <td>:</td>
+            <td> <input type="text" name="address" id="address"></td>
+        </tr>
+        <tr>
+            <td><label for="number">nomer HP</label></td>
+            <td>:</td>
+            <td><input type="text" name="telephone" id="number"></td>
+        </tr>
+        <tr>
+            <td><label for="email">Email</label></td>
+            <td>:</td>
+            <td><input type="text" name="email" id="email"></td>
+        </tr>
+        <tr >
+            <td><label for="instruction">Catatan Pesanan</label></td>
+            <td>:</td>
+            <td><textarea name="instructions" id="instruction" cols="30" rows="10"></textarea></td>
+        </tr>
+    </table>
+        </fieldset>
+        <form>
+            <fieldset>
+            <legend><h2>Daftar Menu BOBA-in Drinks</h2></legend>
+            <h4>Menu Pilihan</h4>
+            <p>Basic BOBA-in Drinks: <input type="text" list="Seblak" name="crust"></p>
+            <datalist id="Seblak">
+                <option value="Palem Sugar">
+                <option value="Salted Caramel">
+                <option value="Tiramissu">
+                <option value="Vanila Latte">
+                <option value="Hazelnut">
+                <option value="Brown Sugar">       
+                <option value="Original">
+            </datalist>
+            <p>Toppings</p>
+                        <input type="checkbox" id="food1" name="food1">
+                        <label for="food1">Crumbs Oreo</label>
+                        <input type="checkbox" id="food2" name="food2">
+                        <label for="food2">Saus Coklat</label><br>
+                        <input type="checkbox" id="food3" name="food3">
+                        <label for="food3">Extra BoBa</label>
+                        <input type="checkbox" id="food4" name="food4">
+                        <label for="food4">Biskuit Regal</label><br>
+                        <input type="checkbox" id="food5" name="food5">
+                        <label for="food5">Saus Keju</label>
+                        <input type="checkbox" id="food6" name="food6">
+                        <label for="foo62">Biskuit Lotus</label><br>
+            <p>Number</p>
+            <label>Banyak Pesanan<input type="number" name="Seblak" min="1" max="6"></label>
+            <table>
+                <tr>
+                    <a href="Form_thankyou.html">
+                        <Button style=""><a href = "Form_thankyou.html">Order</Button></a>
+                    <th><input type="reset" value="Reset"></th>
+                </tr>
+            </table>
+        </fieldset>
+
+        </form>
+            
+    </form>
+    <div style= "background-color :rgb(255, 8, 0)" align="center"><h1>@yusuf.kruger</h1></div>  
+</body>
+</html>
